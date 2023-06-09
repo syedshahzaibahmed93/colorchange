@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link into colour</title>
+</head>
+<body>
+    
+ 
+    <button onclick="red()"> click red</button>
+    <button onclick="green()"> click green</button>
+    <button onclick="blue()"> click blue</button>
+    <button onclick="yellow()"> click yellow</button><br>
+    <form>
+
+        <input type="text"   id= "colorinput" />
+    <input type ="submit" onclick="showColor()" />
+    </form>
+    <script src="colour.js">
+        
+    function showcolor(){
+let color=document.getElementById("colorinput").Value;
+document.body.style.backgroundColor=color;
+console.write(document.body.style.backgroundColor);
+         };
+    </script>
+    
+</body>
+</html>
